@@ -1,7 +1,4 @@
-@if "%DEBUG%" == "" @echo off
-@rem ##########################################################################
-@rem Gradle startup script for Windows
-@rem ##########################################################################
-
+@echo off
+REM Gradle startup script for Windows
 set DIR=%~dp0
-java -cp "%DIR%\gradle\wrapper\gradle-wrapper.jar" org.gradle.wrapper.GradleWrapperMain %*
+java -jar "%DIR%gradle\wrapper\gradle-wrapper.jar" %*
